@@ -1,0 +1,6 @@
+node_modules
+release
+.vs
+bin
+obj
+Logs
