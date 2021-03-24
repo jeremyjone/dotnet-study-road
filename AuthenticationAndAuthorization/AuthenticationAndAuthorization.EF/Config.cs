@@ -2,8 +2,10 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
+using System;
 using IdentityServer4.Models;
 using System.Collections.Generic;
+using AuthenticationAndAuthorization.EF.Models;
 
 namespace AuthenticationAndAuthorization.EF
 {
@@ -54,5 +56,50 @@ namespace AuthenticationAndAuthorization.EF
                     AllowedScopes = { "openid", "profile", "scope2" }
                 },
             };
+
+        #region 创建种子用户和角色
+
+        public static IEnumerable<ApplicationUser> Users =>
+            new[]
+            {
+                new ApplicationUser
+                {
+                    BirthDate = DateTime.Now,
+                    Email = "user1@qq.com",
+                    UserName = "user1",
+                    NickName = "用户1",
+                    EmailConfirmed = true
+                },
+                new ApplicationUser
+                {
+                    BirthDate = DateTime.Now,
+                    Email = "user2@qq.com",
+                    UserName = "user2",
+                    NickName = "用户2",
+                    EmailConfirmed = true
+                },
+            };
+
+        public static IEnumerable<ApplicationRole> Roles =>
+            new[]
+            {
+                new ApplicationRole
+                {
+                    Name = "admin",
+                    Description = "管理员",
+                },
+                new ApplicationRole
+                {
+                    Name = "user",
+                    Description = "用户",
+                },
+                new ApplicationRole
+                {
+                    Name = "guest",
+                    Description = "访客",
+                },
+            };
+
+        #endregion
     }
 }

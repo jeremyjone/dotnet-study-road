@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace AuthenticationAndAuthorization.EF.Migrations.PersistedGrantDb
+namespace AuthenticationAndAuthorization._10EF.MigrationsMySql.PersistedGrantDb
 {
-    public partial class Grants : Migration
+    public partial class InitialIdentityServerPersistedGrantDbMigrationMysql : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

@@ -32,7 +32,7 @@ namespace AuthenticationAndAuthorization.Jwt
                 {
                     // 这里将 audience 的值修改。如果不验证，则通过，需要验证则不通过，可以修改 false 为 true 测试
                     ValidateAudience = false,
-                    ValidAudience = "jeremyjone1",
+                    ValidAudience = "jeremyjone1", // 应该是 jeremyjone
 
                     // 所有验证内容需要和颁发时的内容一致
                     ValidateIssuer = true,

@@ -43,21 +43,13 @@ namespace AuthenticationAndAuthorization.IS4WithUIMvcClient
                     // 这个地址是认证服务器的地址
                     options.Authority = "https://localhost:5001";
                     // 下面内容需要与认证服务器的内容保持一致
-                    //options.ClientId = "mvc_client";
-                    //options.ClientSecret = "www.jeremyjone.com";
-                    //// 认证方式
-                    //options.ResponseType = "code";
-                    //options.SaveTokens = true;
-                    //// 验证是否包含某个作用域
-                    //options.Scope.Add("api.jeremyjone.com");
-
-                    options.ClientId = "m2m.client";
-                    options.ClientSecret = "asdfghjkl12345qwertyuiop09876zxcvbnm";
+                    options.ClientId = "mvc_client";
+                    options.ClientSecret = "www.jeremyjone.com";
                     // 认证方式
-                    options.ResponseType = OpenIdConnectResponseType.Code;
+                    options.ResponseType = "code";
                     options.SaveTokens = true;
                     // 验证是否包含某个作用域
-                    options.Scope.Add("scope2");
+                    options.Scope.Add("api.jeremyjone.com");
                 });
         }
 

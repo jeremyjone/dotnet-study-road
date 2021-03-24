@@ -53,17 +53,28 @@ namespace AuthenticationAndAuthorization.Jwt.Controllers
         [HttpGet("token")]
         public ActionResult GetToken()
         {
-            // 秘钥，与验证秘钥相同
+            // 秘钥，绝对私有的，使用该秘钥可以生成和验证所有 token
             var key = new SymmetricSecurityKey(Encoding.ASCII.GetBytes("www.jeremyjone.com"));
+            // 创建令牌
             var token = new JwtSecurityToken(
+                // 发行人
                 issuer: "jeremyjone@qq.com",
+                // 接收人
                 audience: "jeremyjone",
+                // 有效时间
                 expires: DateTime.UtcNow.AddHours(1),
+                // 数字签名，使用指定的加密方式对秘钥进行加密
                 signingCredentials: new SigningCredentials(key, SecurityAlgorithms.HmacSha256),
-                // claim 可以任意填写内容
-                claims: new Claim[] { });
+                // 其他声明，这里可以任意填写
+                claims: new Claim[]
+                {
+                    // 角色需要在这里填写
+                    new Claim(ClaimTypes.Role, "Admin"),
+                    // 多个角色可以重复写，生成的 JWT 会是一个数组
+                    new Claim(ClaimTypes.Role, "Super")
+                });
 
-            // 注意需要 handler 写入
+            // 写入 token 并生成 JWT
             return Ok(new JwtSecurityTokenHandler().WriteToken(token));
         }
     }
