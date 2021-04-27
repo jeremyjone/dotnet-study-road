@@ -23,6 +23,8 @@ namespace Database.ModelBase
         /// <summary>
         /// 用户所在部门
         /// </summary>
-        public int DepartId { get; set; }
+        public int DepartmentId { get; set; }
+
+        public Department Department { get; set; }
     }
 }

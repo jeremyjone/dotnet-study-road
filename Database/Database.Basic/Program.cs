@@ -19,7 +19,7 @@ namespace Database.Basic
             db.Add(new User
             {
                 Id = 1,
-                DepartId = 1,
+                DepartmentId = 1,
                 Username = "jeremyjone",
                 Nickname = "Jeremy Jone"
             });
@@ -35,7 +35,7 @@ namespace Database.Basic
             var user = db.Users.FirstOrDefault();
             if (user != null)
             {
-                var department = db.Departments.FirstOrDefault(x => x.Id == user.DepartId);
+                var department = db.Departments.FirstOrDefault(x => x.Id == user.DepartmentId);
                 if (department == null)
                 {
                     Console.WriteLine("部门为空");
