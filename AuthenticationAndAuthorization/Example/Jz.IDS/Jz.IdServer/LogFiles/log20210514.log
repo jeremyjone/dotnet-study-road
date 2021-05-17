@@ -1,0 +1,172 @@
+[11:43:57 Error] IdentityServer4.Validation.AuthorizeRequestValidator
+code_challenge is missing
+{"ClientId":"hybrid client","ClientName":"Hybrid 客户端","RedirectUri":"http://localhost:7100/signin-oidc","AllowedRedirectUris":["http://localhost:7100/signin-oidc"],"SubjectId":"anonymous","ResponseType":"code id_token","ResponseMode":"fragment","GrantType":"hybrid","RequestedScopes":"","State":"CfDJ8EHES2QQBMZLlJli8Lm74PmQDVSeJMXZTGNJFO-IgMfSsmGkXCRgf30GDePLc0rZoI7_H_3LV_FR8MdyQaMnjusrTInCaxNy0g2eac4FQcGpn3CPukJj0pqJBX-cFpirQBb-Hb7qoXRY3ELO9nprLeW5668Btl7tTl7pHPC4RiPi-m2vROCsr3LC8-4-_qKGvHN-KrXfZ5s6rRn7orvo0WynCXU98hMI95J1Btyoy2MFFDqLYn5yhYTsuSb0EnR9SPkMKIiLEXFNGysS94lEyjQxoYZ5Dk-IfvPeqczy4wkSaogH9EA64dttqK4zxQaRXg","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"hybrid client","redirect_uri":"http://localhost:7100/signin-oidc","response_type":"code id_token","scope":"openid email address phone profile mvc.read mvc.create mvc.update mvc.delete api.read api.create api.update api.delete roles","response_mode":"form_post","nonce":"637565606372152972.MmQ0ZWQ5ZWMtMDMwNC00NmU5LThlOTQtZDgzNGEyZGRlNzc4MzkzNTEyYTctNmUwNy00N2E5LWFmOTktMTUyOGE2OTkxMjVi","state":"CfDJ8EHES2QQBMZLlJli8Lm74PmQDVSeJMXZTGNJFO-IgMfSsmGkXCRgf30GDePLc0rZoI7_H_3LV_FR8MdyQaMnjusrTInCaxNy0g2eac4FQcGpn3CPukJj0pqJBX-cFpirQBb-Hb7qoXRY3ELO9nprLeW5668Btl7tTl7pHPC4RiPi-m2vROCsr3LC8-4-_qKGvHN-KrXfZ5s6rRn7orvo0WynCXU98hMI95J1Btyoy2MFFDqLYn5yhYTsuSb0EnR9SPkMKIiLEXFNGysS94lEyjQxoYZ5Dk-IfvPeqczy4wkSaogH9EA64dttqK4zxQaRXg","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"6.7.1.0"},"$type":"AuthorizeRequestValidationLog"}
+
+[11:43:57 Error] IdentityServer4.Endpoints.AuthorizeEndpoint
+Request validation failed
+
+[11:44:45 Error] IdentityServer4.Validation.AuthorizeRequestValidator
+code_challenge is missing
+{"ClientId":"hybrid client","ClientName":"Hybrid 客户端","RedirectUri":"http://localhost:7100/signin-oidc","AllowedRedirectUris":["http://localhost:7100/signin-oidc"],"SubjectId":"anonymous","ResponseType":"code id_token","ResponseMode":"fragment","GrantType":"hybrid","RequestedScopes":"","State":"CfDJ8EHES2QQBMZLlJli8Lm74PmC269G2yfoyb-NCAQI3qtl0jkUH1Avn-O6tRFpdqp7k73XNektG851l5ziLu_X0y87GI7PPNI0O88SUglOHv8v-qPovjMrVB7ci3vBnXVR0kI-RbK9gJOJWka3s8S8iDup_Gn9T5Q39_f5gSkizi-_3svP7-Qj4sHecJawyA9gBtulkJg_JUiE0Pl2J3RuEYR5meTl_fzTFezRHlwPw4gTTdldcAPtegamVDUa8qwo5pxGS4ljwrotvBJ7BCHJRVsekfpJRzVz6g3FVMcrrTLsY5cgaPVD7r0BU-lWcxZ-XA","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"hybrid client","redirect_uri":"http://localhost:7100/signin-oidc","response_type":"code id_token","scope":"openid email address phone profile mvc.read mvc.create mvc.update mvc.delete api.read api.create api.update api.delete roles","response_mode":"form_post","nonce":"637565606857062129.NzVmMjY2ZDEtZDNhNy00OGI2LTkyMWItMjJmZWM0NTgzMmY0NzA4ZWRmYmEtMWEwYy00OWNmLTlkNjUtMjg4NDkyNjRhMjI5","state":"CfDJ8EHES2QQBMZLlJli8Lm74PmC269G2yfoyb-NCAQI3qtl0jkUH1Avn-O6tRFpdqp7k73XNektG851l5ziLu_X0y87GI7PPNI0O88SUglOHv8v-qPovjMrVB7ci3vBnXVR0kI-RbK9gJOJWka3s8S8iDup_Gn9T5Q39_f5gSkizi-_3svP7-Qj4sHecJawyA9gBtulkJg_JUiE0Pl2J3RuEYR5meTl_fzTFezRHlwPw4gTTdldcAPtegamVDUa8qwo5pxGS4ljwrotvBJ7BCHJRVsekfpJRzVz6g3FVMcrrTLsY5cgaPVD7r0BU-lWcxZ-XA","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"6.7.1.0"},"$type":"AuthorizeRequestValidationLog"}
+
+[11:44:45 Error] IdentityServer4.Endpoints.AuthorizeEndpoint
+Request validation failed
+
+[12:03:34 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[12:07:31 Error] IdentityServer4.Validation.AuthorizeRequestValidator
+Invalid grant type for client: authorization_code
+{"ClientId":"hybrid client","ClientName":"Hybrid 客户端","RedirectUri":"http://localhost:7100/signin-oidc","AllowedRedirectUris":["http://localhost:7100/signin-oidc"],"SubjectId":"anonymous","ResponseType":"code","ResponseMode":"form_post","GrantType":"authorization_code","RequestedScopes":"","State":"CfDJ8EHES2QQBMZLlJli8Lm74PmOV4ZKQ3flrFJ9cJgXtcjqi7b2YjUuoCUQORqIdquao_jUMFrM74305iQ_WBxEF0miwLolQPpBIn7-c5dSI-zAOyyioeI0dGEEgm0Fs2JGR63XWo9T5_KhFDcw3RBCLAWE4DFI4qVCDR-q-Pg4coH_srf_VtcRE8RA6WfsmaQkAD4ptOuDrXkSzyZAxVOgU25lu6jt7mPk8sfNKIf2bAVse_NboaLLhY1wanY7Wlv5K0s4X32gysnTmIKWPcpGpfLBK-PzAMrLGuXene3Cd1ie92U7awSG9ODMU4vOiu12ulEIZq4z9t79bgVWOpx0mFbHd7PJeh7iYrdmgK6KRa9uIsIHBdt4iomPqBhl3yiTag","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"hybrid client","redirect_uri":"http://localhost:7100/signin-oidc","response_type":"code","scope":"openid email address phone profile mvc.read mvc.create mvc.update mvc.delete api.read api.create api.update api.delete roles","code_challenge":"1j7qTCE_-VX-Q2Z705PAK-JVY8KCM7QARxoUEMEUgMU","code_challenge_method":"S256","response_mode":"form_post","nonce":"637565620509538131.NzZhY2NjYmUtMTdkNy00ZjBkLWExZTYtMmM3ZWUzN2E1YWQzNGNjMzQzNzUtYjUzMi00OTJlLTg3ODEtNzQxYzcxOWUyOWNk","state":"CfDJ8EHES2QQBMZLlJli8Lm74PmOV4ZKQ3flrFJ9cJgXtcjqi7b2YjUuoCUQORqIdquao_jUMFrM74305iQ_WBxEF0miwLolQPpBIn7-c5dSI-zAOyyioeI0dGEEgm0Fs2JGR63XWo9T5_KhFDcw3RBCLAWE4DFI4qVCDR-q-Pg4coH_srf_VtcRE8RA6WfsmaQkAD4ptOuDrXkSzyZAxVOgU25lu6jt7mPk8sfNKIf2bAVse_NboaLLhY1wanY7Wlv5K0s4X32gysnTmIKWPcpGpfLBK-PzAMrLGuXene3Cd1ie92U7awSG9ODMU4vOiu12ulEIZq4z9t79bgVWOpx0mFbHd7PJeh7iYrdmgK6KRa9uIsIHBdt4iomPqBhl3yiTag","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"6.7.1.0"},"$type":"AuthorizeRequestValidationLog"}
+
+[12:07:31 Error] IdentityServer4.Endpoints.AuthorizeEndpoint
+Request validation failed
+
+[12:07:53 Error] IdentityServer4.Validation.AuthorizeRequestValidator
+Client requested access token - but client is not configured to receive access tokens via browser
+{"ClientId":"hybrid client","ClientName":"Hybrid 客户端","RedirectUri":"http://localhost:7100/signin-oidc","AllowedRedirectUris":["http://localhost:7100/signin-oidc"],"SubjectId":"anonymous","ResponseType":"code id_token token","ResponseMode":"form_post","GrantType":"hybrid","RequestedScopes":"","State":"CfDJ8EHES2QQBMZLlJli8Lm74PlO12ETHyzzD3ZmUUMUTeFOcN5FodC4dxMY52aF534JaCY9Wf9tPo8oepNvz4dpexCKbiklKbOibJY_1gmOciQt68JK3zzH3aRE0JF5wtioHY33cVS6V-KApGsJHbE09GYvP5aFt5exPWztReiEHJVGpm54q_EcK0uLKb3m2DPNo9rTJQWPbC5x8EcZ1U4hnkpr12Vmv2bcUuLgq9PKuijmcEYPPeQeJwjC23420IcmA5Ea945WleGKCz-yU1D43HCiqVj2yObxpgOD-HTS7TPcUplAiZMviuJMb9fx8-BFNg","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"hybrid client","redirect_uri":"http://localhost:7100/signin-oidc","response_type":"code id_token token","scope":"openid email address phone profile mvc.read mvc.create mvc.update mvc.delete api.read api.create api.update api.delete roles","response_mode":"form_post","nonce":"637565620732431271.YmQxNTJiZGYtNDI1MC00MzhlLThjM2YtMWYxODE0YTQxZDI0NzU1NDRiYTMtZDQ4ZC00Yzg0LWEyMGUtOWE2YTc2M2YyY2Nk","state":"CfDJ8EHES2QQBMZLlJli8Lm74PlO12ETHyzzD3ZmUUMUTeFOcN5FodC4dxMY52aF534JaCY9Wf9tPo8oepNvz4dpexCKbiklKbOibJY_1gmOciQt68JK3zzH3aRE0JF5wtioHY33cVS6V-KApGsJHbE09GYvP5aFt5exPWztReiEHJVGpm54q_EcK0uLKb3m2DPNo9rTJQWPbC5x8EcZ1U4hnkpr12Vmv2bcUuLgq9PKuijmcEYPPeQeJwjC23420IcmA5Ea945WleGKCz-yU1D43HCiqVj2yObxpgOD-HTS7TPcUplAiZMviuJMb9fx8-BFNg","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"6.7.1.0"},"$type":"AuthorizeRequestValidationLog"}
+
+[12:07:53 Error] IdentityServer4.Endpoints.AuthorizeEndpoint
+Request validation failed
+
+[12:14:26 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[13:17:33 Error] IdentityServer4.Validation.AuthorizeRequestValidator
+Invalid grant type for client: implicit
+{"ClientId":"hybrid client","ClientName":"Hybrid 客户端","RedirectUri":"http://localhost:7100/signin-oidc","AllowedRedirectUris":["http://localhost:7100/signin-oidc"],"SubjectId":"88421113","ResponseType":"id_token token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"","State":"c38ba31a5f7b4469b9914d66718c080b","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"hybrid client","redirect_uri":"http://localhost:7100/signin-oidc","response_type":"id_token token","scope":"openid profile email api.read api.create api.update api.delete mvc.delete","state":"c38ba31a5f7b4469b9914d66718c080b","nonce":"9fa623d385a64a1b86cf59e5bd764bd4"},"$type":"AuthorizeRequestValidationLog"}
+
+[13:17:33 Error] IdentityServer4.Endpoints.AuthorizeEndpoint
+Request validation failed
+
+[13:17:52 Error] IdentityServer4.Validation.AuthorizeRequestValidator
+Invalid grant type for client: authorization_code
+{"ClientId":"hybrid client","ClientName":"Hybrid 客户端","RedirectUri":"http://localhost:7100/signin-oidc","AllowedRedirectUris":["http://localhost:7100/signin-oidc"],"SubjectId":"88421113","ResponseType":"code","ResponseMode":"query","GrantType":"authorization_code","RequestedScopes":"","State":"eb33137ed2aa4032825875f1a4c3d364","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"hybrid client","redirect_uri":"http://localhost:7100/signin-oidc","response_type":"code","scope":"openid profile email api.read api.create api.update api.delete mvc.delete","state":"eb33137ed2aa4032825875f1a4c3d364","code_challenge":"bGisfFzhLyz-XohixavIG38NTadOInlHEkg71EVcvyc","code_challenge_method":"S256","response_mode":"query"},"$type":"AuthorizeRequestValidationLog"}
+
+[13:17:52 Error] IdentityServer4.Endpoints.AuthorizeEndpoint
+Request validation failed
+
+[13:18:04 Error] IdentityServer4.Validation.AuthorizeRequestValidator
+Invalid grant type for client: implicit
+{"ClientId":"hybrid client","ClientName":"Hybrid 客户端","RedirectUri":"http://localhost:7100/signin-oidc","AllowedRedirectUris":["http://localhost:7100/signin-oidc"],"SubjectId":"88421113","ResponseType":"id_token token","ResponseMode":"fragment","GrantType":"implicit","RequestedScopes":"","State":"1e59b9b3beef49f7aa37435c478a4ab0","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"hybrid client","redirect_uri":"http://localhost:7100/signin-oidc","response_type":"id_token token","scope":"openid profile email api.read api.create api.update api.delete mvc.delete","state":"1e59b9b3beef49f7aa37435c478a4ab0","nonce":"3e53fb4ab9ea467f808afbac62d4f6b8"},"$type":"AuthorizeRequestValidationLog"}
+
+[13:18:04 Error] IdentityServer4.Endpoints.AuthorizeEndpoint
+Request validation failed
+
+[15:05:18 Error] IdentityServer4.Validation.DefaultResourceValidator
+Scope mvc not found in store.
+
+[15:05:18 Error] IdentityServer4.Validation.TokenRequestValidator
+Invalid scopes requested, {"ClientId":"m2m.client","ClientName":"Client Credentials Client","GrantType":"client_credentials","Scopes":null,"AuthorizationCode":"********","RefreshToken":"********","UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"mvc.read mvc.create mvc.update mvc.delete mvc","client_id":"m2m.client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+
+[15:19:54 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[15:20:00 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[15:20:06 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[15:20:25 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[15:21:15 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[15:21:21 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[15:25:22 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[15:34:11 Error] IdentityServer4.Validation.DefaultResourceValidator
+Scope profile not found in store.
+
+[15:34:11 Error] IdentityServer4.Validation.DefaultResourceValidator
+Scope email not found in store.
+
+[15:34:11 Error] IdentityServer4.Endpoints.AuthorizeEndpoint
+Request validation failed
+
+[15:35:28 Error] IdentityServer4.Validation.DefaultResourceValidator
+Scope profile not found in store.
+
+[15:35:28 Error] IdentityServer4.Validation.DefaultResourceValidator
+Scope email not found in store.
+
+[15:35:28 Error] IdentityServer4.Endpoints.AuthorizeEndpoint
+Request validation failed
+
+[15:35:37 Error] IdentityServer4.Validation.DefaultResourceValidator
+Scope profile not found in store.
+
+[15:35:37 Error] IdentityServer4.Validation.DefaultResourceValidator
+Scope email not found in store.
+
+[15:35:37 Error] IdentityServer4.Endpoints.AuthorizeEndpoint
+Request validation failed
+
+[15:36:32 Error] IdentityServer4.Validation.DefaultResourceValidator
+Scope email not found in store.
+
+[15:36:32 Error] IdentityServer4.Validation.DefaultResourceValidator
+Scope profile not found in store.
+
+[15:36:32 Error] IdentityServer4.Validation.TokenRequestValidator
+Invalid scopes requested, {"ClientId":"pwd client","ClientName":null,"GrantType":"password","Scopes":null,"AuthorizationCode":"********","RefreshToken":"********","UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","username":"bob","password":"***REDACTED***","scope":"openid profile email address mvc.read mvc.create mvc.update mvc.delete api.read api.create api.update api.delete","client_id":"pwd client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+
+[15:36:47 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[15:40:39 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[15:41:47 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[15:46:51 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[15:47:29 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[15:48:28 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[15:48:40 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[15:48:45 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[15:54:53 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[15:54:53 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[15:54:56 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[15:54:59 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[15:55:00 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[15:55:04 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[15:55:20 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[15:55:47 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[16:11:18 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[16:13:06 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+

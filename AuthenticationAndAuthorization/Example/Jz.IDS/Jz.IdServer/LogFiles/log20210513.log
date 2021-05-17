@@ -1,0 +1,132 @@
+[11:11:04 Error] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint Jz.IdServer.Controllers.Grants.GrantsController.Index (Jz.IdServer) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() inside the call to Configure(..) in the application startup code. The call to app.UseAuthorization() must appear between app.UseRouting() and app.UseEndpoints(...).
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+[11:11:10 Error] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint Jz.IdServer.Controllers.Diagnostics.DiagnosticsController.Index (Jz.IdServer) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() inside the call to Configure(..) in the application startup code. The call to app.UseAuthorization() must appear between app.UseRouting() and app.UseEndpoints(...).
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+[11:11:26 Error] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint Jz.IdServer.Controllers.Diagnostics.DiagnosticsController.Index (Jz.IdServer) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() inside the call to Configure(..) in the application startup code. The call to app.UseAuthorization() must appear between app.UseRouting() and app.UseEndpoints(...).
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+[14:11:13 Error] IdentityServer4.Validation.AuthorizeRequestValidator
+Invalid redirect_uri: http://localhost:6500/signin-oidc
+{"ClientId":"interactive","ClientName":null,"RedirectUri":null,"AllowedRedirectUris":["https://localhost:44300/signin-oidc"],"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"interactive","redirect_uri":"http://localhost:6500/signin-oidc","response_type":"code","scope":"scope2 openid profile","code_challenge":"Z_ndkC3c2diM4Nx9pVCutfQwDm6HtAd57ckb0LXD7OM","code_challenge_method":"S256","response_mode":"form_post","nonce":"637564830737131795.OTA3MjkyZjQtZmZiYi00MDEzLThkMjYtM2ZiYjI3NmI3MTdjMDc1MzZlN2YtMWUyNS00ZmQwLWJkYzUtZTE1MWRhNDJlYjU3","state":"CfDJ8EHES2QQBMZLlJli8Lm74PkaUEad-pIVEbyCrBhutA8N0Xca9RG43IA_cRlmvp_5mpZIxWyS87dMqqjFCGP-BAppXmtJpl5JAHvweaWkKI1FIufVDzcUpy5rq0EdL8f7zEHXPHPSEvtlFW6Tj3__9Du07OwJdAT2PNDXkguGGOMk2dWVZghAR5bvNK3jGrl7GKHbHJmYREzJIlTr5weveiG8VOdEINIBTS7sKgiHyiW0YfX5FMrUfb5U3fzEz6y3n4bL9UPLhToBbTX5nyW9qj8k6z9Lze7M6h5l4dW__GeiPEFPDbw4rRbQ6DfOlqq_mJlX0r48xGcDzydlHGXVGcWvPb-bcJZ6Km4YCRcvCJTg8bJxFYb5xKUuPtnIwhggoQ","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"6.7.1.0"},"$type":"AuthorizeRequestValidationLog"}
+
+[14:11:14 Error] IdentityServer4.Endpoints.AuthorizeEndpoint
+Request validation failed
+
+[14:24:18 Error] IdentityServer4.Validation.DefaultResourceValidator
+Client interactive is not allowed access to scope scope1.
+
+[14:24:18 Error] IdentityServer4.Endpoints.AuthorizeEndpoint
+Request validation failed
+
+[14:58:25 Error] IdentityServer4.Validation.DefaultResourceValidator
+Scope mvc not found in store.
+
+[14:58:25 Error] IdentityServer4.Endpoints.AuthorizeEndpoint
+Request validation failed
+
+[15:03:23 Error] IdentityServer4.Validation.DefaultResourceValidator
+Client interactive is not allowed access to scope mvc.read.
+
+[15:03:23 Error] IdentityServer4.Endpoints.AuthorizeEndpoint
+Request validation failed
+
+[15:04:04 Error] IdentityServer4.Validation.DefaultResourceValidator
+Scope mvc not found in store.
+
+[15:04:04 Error] IdentityServer4.Endpoints.AuthorizeEndpoint
+Request validation failed
+
+[15:19:19 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[15:55:18 Error] IdentityServer4.Validation.AuthorizeRequestValidator
+Unknown client or not enabled: dms_test
+{"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"dms_test","redirect_uri":"http://localhost:8080/callback","response_type":"id_token","scope":"openid","state":"fa334f2d39e44935ac7931f1e69379ca","nonce":"e5df1529bc0f4047945c66028de7bbf7","prompt":"none"},"$type":"AuthorizeRequestValidationLog"}
+
+[15:55:18 Error] IdentityServer4.Endpoints.AuthorizeEndpoint
+Request validation failed
+
+[16:01:10 Error] IdentityServer4.Validation.DefaultResourceValidator
+Client implicit client is not allowed access to scope address.
+
+[16:01:10 Error] IdentityServer4.Endpoints.AuthorizeEndpoint
+Request validation failed
+
+[16:02:19 Error] IdentityServer4.Validation.TokenValidator
+Invalid reference token.
+{"ClientId":null,"ClientName":null,"ValidateLifetime":true,"AccessTokenType":"Reference","ExpectedScope":null,"TokenHandle":"null","JwtId":null,"Claims":null,"$type":"TokenValidationLog"}
+
+[16:07:21 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[16:07:52 Error] IdentityServer4.Validation.DefaultResourceValidator
+Client implicit client is not allowed access to scope api.delete.
+
+[16:07:52 Error] IdentityServer4.Endpoints.AuthorizeEndpoint
+Request validation failed
+
+[16:09:05 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[16:23:50 Error] IdentityServer4.Validation.DefaultResourceValidator
+Client implicit client is not allowed access to scope api.read.
+
+[16:23:50 Error] IdentityServer4.Validation.DefaultResourceValidator
+Client implicit client is not allowed access to scope api.create.
+
+[16:23:50 Error] IdentityServer4.Validation.DefaultResourceValidator
+Client implicit client is not allowed access to scope api.update.
+
+[16:23:50 Error] IdentityServer4.Validation.DefaultResourceValidator
+Client implicit client is not allowed access to scope api.delete.
+
+[16:23:50 Error] IdentityServer4.Validation.DefaultResourceValidator
+Client implicit client is not allowed access to scope mvc.delete.
+
+[16:23:50 Error] IdentityServer4.Endpoints.AuthorizeEndpoint
+Request validation failed
+
+[16:24:23 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[16:25:51 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[16:25:54 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
+[16:28:36 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+

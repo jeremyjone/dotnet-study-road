@@ -1,0 +1,3 @@
+[15:30:13 Warning] IdentityServer4.Hosting.CorsPolicyProvider
+CorsPolicyService did not allow origin: https://jwt.io
+
