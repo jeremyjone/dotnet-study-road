@@ -1,6 +1,6 @@
 # .NET 学习之路代码示例
 
-不定期总结更新中。。。
+来了就点个 star 吧。不定期总结更新中。。。
 
 [.NET 学习之路](https://jeremyjone.github.io/docs/document/roadmap/dotnetcore/basic.html) 文档配套示例代码。
 
