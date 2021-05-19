@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+
+    <span>缓存时间：</span>
+    <span>@ViewData["date"]</span>
+
+    <hr />
+
+    <span>当前时间：</span>
+    <span>@DateTime.Now</span>
+
+    <hr />
+
+    <a class="btn btn-primary" asp-action="Clear">清除缓存</a>
+
+</div>

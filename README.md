@@ -1,8 +1,10 @@
 # .NET 学习之路代码示例
 
-来了就点个 star 吧。不定期总结更新中。。。
+不定期总结更新中。。。
 
-[.NET 学习之路](https://jeremyjone.github.io/docs/document/roadmap/dotnetcore/basic.html) 文档配套示例代码。
+本库是 **[.NET 学习之路文档](https://jeremyjone.github.io/docs/document/roadmap/dotnetcore/basic.html)** 的配套示例代码，请参阅文档进行浏览。
+
+## 来了就点个 star 吧~
 
 ## 目录
 
@@ -29,6 +31,11 @@
 - [带 UI 的 IS4 服务器](./AuthenticationAndAuthorization/AuthenticationAndAuthorization.IS4WithUI)
 - [IS4 使用数据库](./AuthenticationAndAuthorization/AuthenticationAndAuthorization.EF)
 - [外部验证](./AuthenticationAndAuthorization/AuthenticationAndAuthorization.ExternalAccount)
+
+### 缓存
+
+- [内存缓存](./Cache/MemoryCache)
+- [分布式缓存](./Cache/DistributedCache)
 
 ### 日志
 
