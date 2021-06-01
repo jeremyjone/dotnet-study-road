@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication1</name>
+    </assembly>
+    <members>
+        <member name="M:WebApplication1.Controllers.WeatherForecastController.MyFunc">
+            <summary>
+            返回天气列表
+            </summary>
+            <remarks>Remarks!</remarks>
+            <response code="201">成功啦</response>
+            <response code="400">好像缺点什么</response>
+            <response code="500">服务器崩啦</response>
+        </member>
+    </members>
+</doc>
