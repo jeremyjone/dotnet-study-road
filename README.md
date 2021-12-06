@@ -2,7 +2,7 @@
 
 不定期总结更新中。。。
 
-本库是 **[.NET 学习之路文档](https://jeremyjone.github.io/docs/document/roadmap/dotnetcore/basic.html)** 的配套示例代码，请参阅文档进行浏览。
+本库是 **[.NET 学习之路文档](https://jeremyjone.github.io/docs/roadmap/dotnetcore/basic.html)** 的配套示例代码，请参阅文档进行浏览。
 
 ## 来了就点个 star 吧~
 
@@ -50,3 +50,11 @@
 ### 文档
 
 - [Swagger](./Swagger/WebApplication1)
+
+### 微服务
+
+- [RabbitMQ](./MicroService/MQ/RabbitMQ)
+
+### 通信
+
+- [gRPC](./Communication/gRPC)
